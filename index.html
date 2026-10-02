@@ -6,8 +6,85 @@
     <meta name="description" content=" Conteúdo básico sobre CSS. Este material explora as diferentes abordagens do CSS. ">
     <meta name="Autor" content="Nicky Menezes">
     <title> Introdução ao CSS </title>
+
+    <style>
+        body{
+            font-family: sans-serif; color: rgb(197, 157, 234);
+            background-color: rgb(60, 32, 85);
+        }
+
+        section{
+            padding: 20px;
+            background-color: rgb(121, 70, 169);
+            border-radius: 20px;
+            border-color: rgb(177, 139, 213);
+            border-width: 20px;
+            border-style: unset;
+            margin-bottom: 3px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header>
+        <h1> O que é o CSS? </h1>
+        <p> O <strong> CSS </strong> sigifica Cascading Style Sheets, ou folhas de estilo em cascata. </p>
+    </header>
+
+    <main>
+        <section>
+            <h2> Sobre o CSS</h2>
+            <p> Linguagem responsável por definir a aparencia visual e organização dos elementos na tela.  </p>
+        </section>
+
+        <section>
+            <h2> Como aplicar o CSS?</h2>
+            <p> Para o CSS, temos 3 abordagens </p>
+
+            <ul>
+                <li> <strong> CSS Inline</strong></li>
+                <li><strong> CSS Interno</strong></li>
+                <li><strong> CSS Externo</strong></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2> O que da para fazer com o CSS?</h2>
+            <p> O CSS não serve apenas para colocar cor na página. Ele controla: </p>
+            <ul>
+                <li> cores</li>
+                <li> fontes</li>
+                <li> tamanhos</li>
+                <li> espaçamentos</li>
+                <li> sombras</li>
+                <li> bordas</li>
+                <li> posicionamentos</li>
+                <li> responsividade</li>
+                <li> animações</li>
+                <li> transições</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2> Aplicando o CSS Inline </h2>
+
+            <p style="color: rgb(213, 183, 240);"> Nessa abordagem o CSS é colocado diretamente no elemento <strong style="background-color: blueviolet;"> HTML </strong> ataravés do atributo <code style="background-color: blueviolet;"> style </code> </p>
+        </section>
+
+        <section>
+            <h2> Aplicando o CSS Interno </h2>
+            <p> Nessa abordagem o CSS é aplicado dentro de uma tag <code> &lt; style &gt; </code> dentro do <code> &lt; head &gt;</code> do documento HTML. </p>
+        </section>
+
+        <section>
+            <h2> Aplivando o CSS Externo</h2>
+            <p> Nessa abordagem os estilos do CSS ficam concentrados em um arquivo separado. </p>
+            <p> Para conectar esse arquivo ao HTML utilizamos o elemento de &lt; link &gt; no &lt; head &gt; da página.</p>
+        </section>
+    </main>
     
+
 </body>
 </html>
